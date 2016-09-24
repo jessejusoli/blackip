@@ -16,7 +16,7 @@ ipset bash
 
 Descargue el repositorio **Blackip**, copie el script a **init.d** y ejecútelo:
 ```
-git clone https://github.com/maravento/blackip
+git clone https://github.com/maravento/blackip.git
 sudo cp -f blackip/blackip.sh /etc/init.d
 sudo chown root:root /etc/init.d/blackip.sh
 sudo chmod +x /etc/init.d/blackip.sh
